@@ -1,0 +1,55 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] Some problems were encountered while building the effective model for com.alibaba:druid:jar:1.2.9_preview_01
+[[1;33mWARNING[m] 'dependencies.dependency.systemPath' for com.sun:tools:jar should not point at files within the project directory, ${project.basedir}/lib/openjdk-1.8-tools.jar will be unresolvable by dependent projects @ line 731, column 16
+[[1;33mWARNING[m] 'dependencies.dependency.systemPath' for com.sun:jconsole:jar should not point at files within the project directory, ${project.basedir}/lib/openjdk-1.8-jconsole.jar will be unresolvable by dependent projects @ line 739, column 16
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] It is highly recommended to fix these problems because they threaten the stability of your build.
+[[1;33mWARNING[m] 
+[[1;33mWARNING[m] For this reason, future Maven versions might no longer support building such malformed projects.
+[[1;33mWARNING[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------------< [0;36mcom.alibaba:druid[0;1m >--------------------------[m
+[[1;34mINFO[m] [1mBuilding druid 1.2.9_preview_01[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mdruid[0;1m >>>[m
+[[1;33mWARNING[m] The POM for org.glassfish:javax.el:jar:3.0.1-b06-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for org.glassfish:javax.el:jar:3.0.1-b07-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for org.glassfish:javax.el:jar:3.0.1-b08-SNAPSHOT is missing, no dependency information available
+[[1;33mWARNING[m] The POM for org.glassfish:javax.el:jar:3.0.1-b11-SNAPSHOT is missing, no dependency information available
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuildnumber-maven-plugin:1.1:create[m [1m(default)[m @ [36mdruid[0;1m ---[m
+[[1;34mINFO[m] Storing buildNumber: 2021-11-03 09:52:57 at timestamp: 1635951177385
+[[1;34mINFO[m] Executing: /bin/sh -c cd /home/ch61/druid && git rev-parse --verify HEAD
+[[1;34mINFO[m] Working directory: /home/ch61/druid
+[[1;34mINFO[m] Storing buildScmBranch: UNKNOWN
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:resources[m [1m(default-resources)[m @ [36mdruid[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 193 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mdruid[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:2.6:testResources[m [1m(default-testResources)[m @ [36mdruid[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 589 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mdruid[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mdruid[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[m @ [36mdruid[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving com.alibaba:druid:1.2.9_preview_01 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Getting original order by parsing logs. ignoreExisting set to: false
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (6469 tests).
